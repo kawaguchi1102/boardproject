@@ -1,0 +1,45 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+.env
+.env.development
+.env.test
+
+*.sqlite
+*.sqlite3
+
+pip-selfcheck.json
+pyvenv.cfg
+lib
+bin
+include
+
+# Created by https://www.gitignore.io/api/linux,django
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
